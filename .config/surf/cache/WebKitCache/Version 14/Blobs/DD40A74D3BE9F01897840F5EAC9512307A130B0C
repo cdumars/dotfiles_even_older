@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xml:lang="en" lang="en">
+  <head>
+    <title>AUR (en) - compton-rounded-corners</title>
+	<link rel='stylesheet' type='text/css' href='/css/archweb.css' />
+	<link rel='stylesheet' type='text/css' href='/css/aurweb.css' />
+	<link rel='shortcut icon' href='/images/favicon.ico' />
+	<link rel='alternate' type='application/rss+xml' title='Newest Packages RSS' href='/rss/' />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="X Compositor (a fork of xcompmgr-dana) (with rounded corners patch)" />
+  </head>
+	<body>
+		<div id="archnavbar" class="anb-aur">
+			<div id="archnavbarlogo"><h1><a href="/" title="Return to the main page">Arch Linux User Repository</a></h1></div>
+			<div id="archnavbarmenu">
+				<ul id="archnavbarlist">
+					<li id="anb-home"><a href="https://www.archlinux.org/" title="Arch news, packages, projects and more">Home</a></li>
+					<li id="anb-packages"><a href="https://www.archlinux.org/packages/" title="Arch Package Database">Packages</a></li>
+					<li id="anb-forums"><a href="https://bbs.archlinux.org/" title="Community forums">Forums</a></li>
+					<li id="anb-wiki"><a href="https://wiki.archlinux.org/" title="Community documentation">Wiki</a></li>
+					<li id="anb-bugs"><a href="https://bugs.archlinux.org/" title="Report and track bugs">Bugs</a></li>
+					<li id="anb-security"><a href="https://security.archlinux.org/" title="Arch Linux Security Tracker">Security</a></li>
+					<li id="anb-aur"><a href="/" title="Arch Linux User Repository">AUR</a></li>
+					<li id="anb-download"><a href="https://www.archlinux.org/download/" title="Get Arch Linux">Download</a></li>
+				</ul>
+			</div>
+		</div><!-- #archnavbar -->
+
+		<div id="content">
+			<div id="lang_sub">
+				<form method="post" action="/packages/compton-rounded-corners/">
+					<fieldset>
+						<div>
+							<select name="setlang" id="id_setlang">
+		<option value="ar">العربية</option>
+<option value="ast">Asturianu</option>
+<option value="ca">Català</option>
+<option value="cs">Český</option>
+<option value="da">Dansk</option>
+<option value="de">Deutsch</option>
+<option value="en" selected="selected">English</option>
+<option value="el">Ελληνικά</option>
+<option value="es">Español</option>
+<option value="es_419">Español (Latinoamérica)</option>
+<option value="fi">Suomi</option>
+<option value="fr">Français</option>
+<option value="he">עברית</option>
+<option value="hr">Hrvatski</option>
+<option value="hu">Magyar</option>
+<option value="it">Italiano</option>
+<option value="ja">日本語</option>
+<option value="nb">Norsk</option>
+<option value="nl">Nederlands</option>
+<option value="pl">Polski</option>
+<option value="pt_BR">Português (Brasil)</option>
+<option value="pt_PT">Português (Portugal)</option>
+<option value="ro">Română</option>
+<option value="ru">Русский</option>
+<option value="sk">Slovenčina</option>
+<option value="sr">Srpski</option>
+<option value="tr">Türkçe</option>
+<option value="uk">Українська</option>
+<option value="zh_CN">简体中文</option>
+<option value="zh_TW">正體中文</option>
+							</select>
+							<input type="submit" value="Go" />
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<div id="archdev-navbar">
+				<ul>
+											<li><a href="/">AUR Home</a></li>
+						<li><a href="/packages/">Packages</a></li>
+						<li><a href="/register/">Register</a></li>
+												<li><a href="/login/">Login</a></li>
+															</ul>
+			</div><!-- #archdev-navbar -->
+			<!-- Start of main content -->
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+function collapseDependsList(list) {
+	list = $(list);
+	// Hide everything past a given limit. Don't do anything if we don't have
+	// enough items, or the link already exists.
+	var limit = 20,
+		linkid = list.attr('id') + 'link',
+		items = list.find('li').slice(limit);
+	if (items.length <= 1 || $('#' + linkid).length > 0) {
+		return;
+	}
+	items.hide();
+	list.after('<p><a id="' + linkid + '" href="#">Show More…</a></p>');
+
+	// add link and wire it up to show the hidden items
+	$('#' + linkid).click(function(event) {
+		event.preventDefault();
+		list.find('li').show();
+		// remove the full <p/> node from the DOM
+		$(this).parent().remove();
+	});
+}
+
+function collapseComment(div) {
+	var linkid = div.attr('id') + 'link',
+		inner = div.find('div'),
+		height = inner.height(),
+		maxheight = 200;
+
+	if (height <= maxheight)
+		return;
+
+	inner.css({ 'overflow': 'hidden', 'height': maxheight + 'px' });
+	inner.addClass('collapsed');
+	inner.after('<p><a id="' + linkid + '" href="#">Show More…</a></p>');
+
+	$('#' + linkid).click(function(event) {
+		var inner = $(this).parent().parent().find('div');
+		var newheight;
+
+		if (inner.hasClass('collapsed')) {
+			inner.css({ 'height': 'auto' });
+			newheight = inner.height();
+			inner.css({ 'height': maxheight });
+			$(this).text('Collapse');
+		} else {
+			newheight = maxheight;
+			$(this).text('Show More…');
+		}
+
+		inner.animate({ 'height': newheight });
+		inner.toggleClass('collapsed');
+		event.preventDefault();
+	});
+}
+
+$(document).ready(function() {
+	collapseDependsList("#pkgdepslist");
+	collapseDependsList("#pkgreqslist");
+	collapseDependsList("#pkgsrcslist");
+	$(".article-content").each(function() {
+		collapseComment($(this));
+	});
+});
+</script>
+
+
+<div id="pkglist-search" class="box filter-criteria">
+<h2>Search Criteria</h2>
+
+<form action='/packages/' method='get'>
+	<p><input type='hidden' name='O' value='0' /></p>
+
+	<fieldset>
+		<legend>Enter search criteria</legend>
+		<div>
+			<label for="id_method">Search by</label>
+			<select name='SeB'>
+												<option value="nd">Name, Description</option>
+																<option value="n">Name Only</option>
+																<option value="b">Package Base</option>
+																<option value="N">Exact Name</option>
+																<option value="B">Exact Package Base</option>
+																<option value="k">Keywords</option>
+																<option value="m">Maintainer</option>
+																<option value="c">Co-maintainer</option>
+																<option value="M">Maintainer, Co-maintainer</option>
+																<option value="s">Submitter</option>
+											</select>
+		</div>
+		<div>
+			<label for="id_q">Keywords</label>
+			<input type='text' name='K' size='30' value="" maxlength='35'  />
+		</div>
+		<div>
+			<label for="id_out_of_date">Out of Date</label>
+			<select name='outdated'>
+												<option value=''>All</option>
+																<option value='on'>Flagged</option>
+																<option value='off'>Not Flagged</option>
+											</select>
+		</div>
+		<div>
+			<label for="id_sort_by">Sort by</label>
+			<select name='SB'>
+												<option value='n'>Name</option>
+																<option value='v'>Votes</option>
+																<option value='p'>Popularity</option>
+																<option value='w'>Voted</option>
+																<option value='o'>Notify</option>
+																<option value='m'>Maintainer</option>
+																<option value='l'>Last modified</option>
+											</select>
+		</div>
+		<div>
+			<label for="id_order_by">Sort order</label>
+			<select name='SO'>
+												<option value='a'>Ascending</option>
+																<option value='d'>Descending</option>
+											</select>
+		</div>
+		<div>
+			<label for="id_per_page">Per page</label>
+			<select name='PP'>
+												<option value="50">50</option>
+																<option value="100">100</option>
+																<option value="250">250</option>
+											</select>
+		</div>
+		<div>
+			<label>&nbsp;</label>
+			<input type='submit' class='button' name='do_Search' value='Go' />
+			<input type='submit' class='button' name='do_Orphans' value='Orphans' />
+		</div>
+	</fieldset>
+</form>
+</div>
+<div id="pkgdetails" class="box">
+	<h2>Package Details: compton-rounded-corners r1186.0359abe-1</h2>
+
+	<div id="detailslinks" class="listing">
+	<div id="actionlist">
+		<h4>Package Actions</h4>
+		<ul class="small">
+			<li>
+				<a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=compton-rounded-corners">View PKGBUILD</a> /
+				<a href="https://aur.archlinux.org/cgit/aur.git/log/?h=compton-rounded-corners">View Changes</a>
+			</li>
+			<li><a href="/cgit/aur.git/snapshot/compton-rounded-corners.tar.gz">Download snapshot</a>
+			<li><a href="https://wiki.archlinux.org/index.php/Special:Search?search=compton-rounded-corners">Search wiki</a></li>
+			<li><span class="flagged"></span></li>
+						<li><a href="https://aur.archlinux.org/login/?referer=https%3A%2F%2Faur.archlinux.org%2Fpkgbase%2Fcompton-rounded-corners%2Fflag%2F">Flag package out-of-date</a></li>
+			
+						<li><a href="https://aur.archlinux.org/login/">Vote for this package</a></li>
+			
+						<li><a href="https://aur.archlinux.org/login/">Enable notifications</a></li>
+			
+			
+			<li><span class="flagged"></span></li>
+			<li><a href="https://aur.archlinux.org/login/?referer=https%3A%2F%2Faur.archlinux.org%2Fpkgbase%2Fcompton-rounded-corners%2Frequest%2F">Submit Request</a></li>
+
+			
+					</ul>
+	</div>
+</div>
+
+	<table id="pkginfo">
+		<tr>
+			<th>Git Clone URL: </th>
+			<td>
+				<a href="https://aur.archlinux.org/compton-rounded-corners.git">https://aur.archlinux.org/compton-rounded-corners.git</a> (read-only)
+							</td>
+		</tr>
+		<tr>
+			<th>Package Base: </th>
+			<td class="wrap"><a href="/pkgbase/compton-rounded-corners/">compton-rounded-corners</a></td>
+		</tr>
+		<tr>
+			<th>Description: </th>
+			<td class="wrap">X Compositor (a fork of xcompmgr-dana) (with rounded corners patch)</td>
+		</tr>
+		<tr>
+			<th>Upstream URL: </th>
+			<td><a href="https://github.com/sdhand/compton" title="Visit the website for compton-rounded-corners">https://github.com/sdhand/compton</a></td>
+		</tr>
+				<tr>
+			<th>Licenses: </th>
+			<td class="wrap">
+								<span class="related">
+										MIT,
+									</span>
+								<span class="related">
+										MPL2									</span>
+							</td>
+		</tr>
+								<tr>
+			<th>Conflicts: </th>
+			<td class="wrap relatedto">
+								<span class="related">
+										compton									</span>
+							</td>
+		</tr>
+						<tr>
+			<th>Provides: </th>
+			<td class="wrap relatedto">
+								<span class="related">
+										compton									</span>
+							</td>
+		</tr>
+						<tr>
+			<th>Submitter: </th>
+			<td>kragniz</td>
+		</tr>
+		<tr>
+			<th>Maintainer: </th>
+			<td>kragniz</td>
+		</tr>
+		<tr>
+			<th>Last Packager: </th>
+			<td>kragniz</td>
+		</tr>
+		<tr>
+			<th>Votes: </th>
+						<td>1</td>
+					</tr>
+		<tr>
+			<th>Popularity: </th>
+			<td>0.356519</td>
+		</tr>
+		<tr>
+			<th>First Submitted: </th>
+			<td>2019-08-30 20:46</td>
+		</tr>
+		<tr>
+			<th>Last Updated: </th>
+			<td>2019-08-30 21:37</td>
+		</tr>
+	</table>
+
+	<div id="metadata">
+		<div id="pkgdeps" class="listing">
+			<h3>Dependencies (22)</h3>
+			<ul id="pkgdepslist">
+	<li><a href="https://www.archlinux.org/packages/?q=hicolor-icon-theme" title="View packages details for hicolor-icon-theme">hicolor-icon-theme</a> <span class="virtual-dep">(<a href="/packages/hicolor-icon-theme-git/" title="View packages details for hicolor-icon-theme-git">hicolor-icon-theme-git</a>)</span></li>
+	<li><a href="https://www.archlinux.org/packages/?q=libconfig" title="View packages details for libconfig">libconfig</a> </li>
+	<li>libdbus <span class="virtual-dep">(<a href="/packages/dbus-elogind/" title="View packages details for dbus-elogind">dbus-elogind</a>, <a href="/packages/dbus-git/" title="View packages details for dbus-git">dbus-git</a>, <a href="/packages/dbus-x11/" title="View packages details for dbus-x11">dbus-x11</a>, <a href="/packages/dbus-nosystemd/" title="View packages details for dbus-nosystemd">dbus-nosystemd</a>, <a href="/packages/dbus-selinux/" title="View packages details for dbus-selinux">dbus-selinux</a>, <a href="https://www.archlinux.org/packages/?q=dbus" title="View packages details for dbus">dbus</a>)</span></li>
+	<li><a href="https://www.archlinux.org/packages/?q=libev" title="View packages details for libev">libev</a> <span class="virtual-dep">(<a href="/packages/milter-manager-git/" title="View packages details for milter-manager-git">milter-manager-git</a>)</span></li>
+	<li>libgl <span class="virtual-dep">(<a href="/packages/nvidia-346xx-libgl/" title="View packages details for nvidia-346xx-libgl">nvidia-346xx-libgl</a>, <a href="/packages/glshim-git/" title="View packages details for glshim-git">glshim-git</a>, <a href="/packages/nvidia-libgl-352/" title="View packages details for nvidia-libgl-352">nvidia-libgl-352</a>, <a href="/packages/catalyst-firepro/" title="View packages details for catalyst-firepro">catalyst-firepro</a>, <a href="/packages/nvidia-libgl-llb/" title="View packages details for nvidia-libgl-llb">nvidia-libgl-llb</a>, <a href="/packages/libhybris-ext-libgl-git/" title="View packages details for libhybris-ext-libgl-git">libhybris-ext-libgl-git</a>, <a href="/packages/nvidia-tesla-libgl/" title="View packages details for nvidia-tesla-libgl">nvidia-tesla-libgl</a>, <a href="/packages/nvidia-libgl-vulkan-developer-beta/" title="View packages details for nvidia-libgl-vulkan-developer-beta">nvidia-libgl-vulkan-developer-beta</a>, <a href="/packages/catalyst-total/" title="View packages details for catalyst-total">catalyst-total</a>, <a href="/packages/catalyst-libgl/" title="View packages details for catalyst-libgl">catalyst-libgl</a>, <a href="/packages/catalyst-total-hd234k/" title="View packages details for catalyst-total-hd234k">catalyst-total-hd234k</a>, <a href="/packages/mesa-grate-git/" title="View packages details for mesa-grate-git">mesa-grate-git</a>, <a href="/packages/libhybris-libgl-git/" title="View packages details for libhybris-libgl-git">libhybris-libgl-git</a>, <a href="/packages/mesa-hybris-libgl/" title="View packages details for mesa-hybris-libgl">mesa-hybris-libgl</a>, <a href="/packages/mesa-libgl-noglvnd/" title="View packages details for mesa-libgl-noglvnd">mesa-libgl-noglvnd</a>, <a href="/packages/catalyst-test/" title="View packages details for catalyst-test">catalyst-test</a>, <a href="/packages/nvidia-340xx-utils/" title="View packages details for nvidia-340xx-utils">nvidia-340xx-utils</a>, <a href="/packages/amdgpu-pro-libgl/" title="View packages details for amdgpu-pro-libgl">amdgpu-pro-libgl</a>, <a href="/packages/libglvnd-git/" title="View packages details for libglvnd-git">libglvnd-git</a>, <a href="/packages/swiftshader-git/" title="View packages details for swiftshader-git">swiftshader-git</a>, <a href="/packages/libglvnd-glesv2/" title="View packages details for libglvnd-glesv2">libglvnd-glesv2</a>, <a href="https://www.archlinux.org/packages/?q=libglvnd" title="View packages details for libglvnd">libglvnd</a>)</span></li>
+	<li><a href="https://www.archlinux.org/packages/?q=libx11" title="View packages details for libx11">libx11</a> <span class="virtual-dep">(<a href="/packages/libx11-threadsafe/" title="View packages details for libx11-threadsafe">libx11-threadsafe</a>, <a href="/packages/libx11-git/" title="View packages details for libx11-git">libx11-git</a>)</span></li>
+	<li><a href="https://www.archlinux.org/packages/?q=libxcb" title="View packages details for libxcb">libxcb</a> <span class="virtual-dep">(<a href="/packages/libxcb-git/" title="View packages details for libxcb-git">libxcb-git</a>)</span></li>
+	<li><a href="https://www.archlinux.org/packages/?q=libxdg-basedir" title="View packages details for libxdg-basedir">libxdg-basedir</a> </li>
+	<li><a href="https://www.archlinux.org/packages/?q=libxext" title="View packages details for libxext">libxext</a> <span class="virtual-dep">(<a href="/packages/libxext-git/" title="View packages details for libxext-git">libxext-git</a>)</span></li>
+	<li><a href="https://www.archlinux.org/packages/?q=pcre" title="View packages details for pcre">pcre</a> <span class="virtual-dep">(<a href="/packages/pcre-svn/" title="View packages details for pcre-svn">pcre-svn</a>)</span></li>
+	<li><a href="https://www.archlinux.org/packages/?q=pixman" title="View packages details for pixman">pixman</a> <span class="virtual-dep">(<a href="/packages/pixman-git/" title="View packages details for pixman-git">pixman-git</a>)</span></li>
+	<li><a href="https://www.archlinux.org/packages/?q=xcb-util-image" title="View packages details for xcb-util-image">xcb-util-image</a> </li>
+	<li><a href="https://www.archlinux.org/packages/?q=xcb-util-renderutil" title="View packages details for xcb-util-renderutil">xcb-util-renderutil</a> </li>
+	<li><a href="https://www.archlinux.org/packages/?q=asciidoc" title="View packages details for asciidoc">asciidoc</a> <span class="virtual-dep">(<a href="/packages/asciidoc-git/" title="View packages details for asciidoc-git">asciidoc-git</a>, <a href="/packages/asciidoc-py3/" title="View packages details for asciidoc-py3">asciidoc-py3</a>)</span> <em>(make)</em></li>
+	<li><a href="https://www.archlinux.org/packages/?q=git" title="View packages details for git">git</a> <span class="virtual-dep">(<a href="/packages/git-git/" title="View packages details for git-git">git-git</a>)</span> <em>(make)</em></li>
+	<li><a href="https://www.archlinux.org/packages/?q=mesa" title="View packages details for mesa">mesa</a> <span class="virtual-dep">(<a href="/packages/mesa-nowayland/" title="View packages details for mesa-nowayland">mesa-nowayland</a>, <a href="/packages/mesa-grate-git/" title="View packages details for mesa-grate-git">mesa-grate-git</a>, <a href="/packages/mesa-hybris/" title="View packages details for mesa-hybris">mesa-hybris</a>, <a href="/packages/mesa-noglvnd/" title="View packages details for mesa-noglvnd">mesa-noglvnd</a>, <a href="/packages/mesa-aco-git/" title="View packages details for mesa-aco-git">mesa-aco-git</a>, <a href="/packages/mesa-git/" title="View packages details for mesa-git">mesa-git</a>)</span> <em>(make)</em></li>
+	<li><a href="https://www.archlinux.org/packages/?q=meson" title="View packages details for meson">meson</a> <span class="virtual-dep">(<a href="/packages/meson-git/" title="View packages details for meson-git">meson-git</a>)</span> <em>(make)</em></li>
+	<li><a href="https://www.archlinux.org/packages/?q=uthash" title="View packages details for uthash">uthash</a>  <em>(make)</em></li>
+	<li><a href="https://www.archlinux.org/packages/?q=dbus" title="View packages details for dbus">dbus</a> <span class="virtual-dep">(<a href="/packages/dbus-elogind/" title="View packages details for dbus-elogind">dbus-elogind</a>, <a href="/packages/dbus-git/" title="View packages details for dbus-git">dbus-git</a>, <a href="/packages/dbus-x11/" title="View packages details for dbus-x11">dbus-x11</a>, <a href="/packages/dbus-nosystemd/" title="View packages details for dbus-nosystemd">dbus-nosystemd</a>, <a href="/packages/dbus-selinux/" title="View packages details for dbus-selinux">dbus-selinux</a>)</span> <em>(optional) &ndash; To control compton via D-Bus </em></em></li>
+	<li><a href="https://www.archlinux.org/packages/?q=python" title="View packages details for python">python</a> <span class="virtual-dep">(<a href="/packages/python-dbg/" title="View packages details for python-dbg">python-dbg</a>)</span> <em>(optional) &ndash; For compton-convgen.py </em></em></li>
+	<li><a href="https://www.archlinux.org/packages/?q=xorg-xprop" title="View packages details for xorg-xprop">xorg-xprop</a>  <em>(optional) &ndash; For compton-trans </em></em></li>
+	<li><a href="https://www.archlinux.org/packages/?q=xorg-xwininfo" title="View packages details for xorg-xwininfo">xorg-xwininfo</a>  <em>(optional) &ndash; For compton-trans </em></em></li>
+			</ul>
+		</div>
+		<div id="pkgreqs" class="listing">
+			<h3>Required by (13)</h3>
+			<ul id="pkgreqslist">
+								<li><a href="/packages/bunsen-openbox-pipemenus-git/" title="View packages details for bunsen-openbox-pipemenus-git">bunsen-openbox-pipemenus-git</a> <span class="virtual-dep">(requires compton)</span></li>
+								<li><a href="/packages/cb-pipemenus/" title="View packages details for cb-pipemenus">cb-pipemenus</a> <span class="virtual-dep">(requires compton)</span></li>
+								<li><a href="/packages/cb-pipemenus-git/" title="View packages details for cb-pipemenus-git">cb-pipemenus-git</a> <span class="virtual-dep">(requires compton)</span> <em>(optional)</em></li>
+								<li><a href="/packages/comptray/" title="View packages details for comptray">comptray</a> <span class="virtual-dep">(requires compton)</span></li>
+								<li><a href="/packages/gnome-flashback-xmonad/" title="View packages details for gnome-flashback-xmonad">gnome-flashback-xmonad</a> <span class="virtual-dep">(requires compton)</span></li>
+								<li><a href="/packages/kana-p-git/" title="View packages details for kana-p-git">kana-p-git</a> <span class="virtual-dep">(requires compton)</span></li>
+								<li><a href="/packages/notion-neg-git/" title="View packages details for notion-neg-git">notion-neg-git</a> <span class="virtual-dep">(requires compton)</span> <em>(optional)</em></li>
+								<li><a href="/packages/pantheon-lite/" title="View packages details for pantheon-lite">pantheon-lite</a> <span class="virtual-dep">(requires compton)</span></li>
+								<li><a href="/packages/paranoid-git/" title="View packages details for paranoid-git">paranoid-git</a> <span class="virtual-dep">(requires compton)</span></li>
+								<li><a href="/packages/uenv/" title="View packages details for uenv">uenv</a> <span class="virtual-dep">(requires compton)</span> <em>(optional)</em></li>
+								<li><a href="/packages/uenv-git/" title="View packages details for uenv-git">uenv-git</a> <span class="virtual-dep">(requires compton)</span> <em>(optional)</em></li>
+								<li><a href="/packages/wm-switcher/" title="View packages details for wm-switcher">wm-switcher</a> <span class="virtual-dep">(requires compton)</span> <em>(optional)</em></li>
+								<li><a href="/packages/wm-switcher-git/" title="View packages details for wm-switcher-git">wm-switcher-git</a> <span class="virtual-dep">(requires compton)</span> <em>(optional)</em></li>
+							</ul>
+		</div>
+		<div id="pkgfiles" class="listing">
+			<h3>Sources (1)</h3>
+		</div>
+				<div>
+			<ul id="pkgsrcslist">
+										<li><a href="git+https://github.com/sdhand/compton.git#branch=next">git+https://github.com/sdhand/compton.git#branch=next</a></li>
+								</ul>
+		</div>
+			</div>
+</div>
+
+			<!-- End of main content -->
+
+			<div id="footer">
+								<p>aurweb <a href="https://git.archlinux.org/aurweb.git/log/?h=v4.8.0">v4.8.0</a></p>
+								<p>Copyright &copy; 2004-2019 aurweb Development Team.</p>
+				<p>AUR packages are user produced content. Any use of the provided files is at your own risk.</p>
+			</div>
+		</div>
+	</body>
+</html>

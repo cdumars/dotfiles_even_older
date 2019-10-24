@@ -1,0 +1,21 @@
+alias ka="killall" \
+	mkd="mkdir -pv" \
+	p="sudo pacman" \
+	SS="sudo systemctl" \
+	g="git" \
+	e="$EDITOR" \
+	sdn="sudo shutdown -h now" \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	se="sudo $EDITOR" \
+	ncmp="ncmpcpp" \
+	tor="tor-browser" \
+
+command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d" # Use neovim if present.
+
+fe() {
+  local files
+  IFS=$'\n' files=($(fzf-tmux --hidden --query="$1" --multi --select-1 --exit-0))
+  [[ -n "$files" ]] && ${EDITOR:-vim} "${files[@]}"
+}

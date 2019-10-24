@@ -1,0 +1,8 @@
+st.font: cherry:style=Regular:size=11
+
+!General font settings
+*.font: xft:cherry:style=Regular:size=11
+*.boldFont: xft:cherry:style=Regular:size=11
+*.italicFont: xft:cherry:style=Regular:size=11
+*.boldItalicFont: xft:cherry:style=Regular:size=11
+

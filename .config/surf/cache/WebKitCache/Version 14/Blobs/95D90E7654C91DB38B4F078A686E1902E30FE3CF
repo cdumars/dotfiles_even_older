@@ -1,0 +1,1594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>using css custom properties variables at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="/opensearch_html.xml" />
+  <link href="/favicon.ico" rel="shortcut icon" />
+  <link rel="apple-touch-icon" href="/assets/logo_icon128.v101.png"/>
+  <link rel="image_src" href="/assets/logo_homepage.normal.v101.png"/>  
+  <link type="text/css" media="handheld, all" href="/h1828.css" rel="stylesheet" />
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+        <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+
+    <form name="x" class="header__form" action="/html/" method="post">
+
+      <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="using css custom properties variables" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+      </div>
+
+
+        
+        
+        
+        
+        
+
+    
+    
+      <input name="kl" value="us-en" type="hidden" />
+        
+        
+    </form>
+
+    </div>
+
+
+
+
+
+<!-- Web results are present -->
+
+  <div>
+  <div class="serp__results">
+  <div id="links" class="results">
+
+      
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2DUS%2Fdocs%2FWeb%2FCSS%2FUsing_CSS_custom_properties"><b>Using</b> <b>CSS</b> <b>custom</b> <b>properties</b> (<b>variables</b>) - <b>CSS</b>: Cascading ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2DUS%2Fdocs%2FWeb%2FCSS%2FUsing_CSS_custom_properties">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/developer.mozilla.org.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2DUS%2Fdocs%2FWeb%2FCSS%2FUsing_CSS_custom_properties">
+                  developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2DUS%2Fdocs%2FWeb%2FCSS%2FUsing_CSS_custom_properties"><b>Custom</b> <b>properties</b> (sometimes referred to as <b>CSS</b> <b>variables</b> or cascading <b>variables</b>) are entities defined by <b>CSS</b> authors that contain specific values to be reused throughout a document. They are set <b>using</b> <b>custom</b> property notation (e.g., --main-color: black;) and are accessed <b>using</b> the var() function (e.g., color: var(--main-color);).</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.sitepoint.com%2Fpractical%2Dguide%2Dcss%2Dvariables%2Dcustom%2Dproperties%2F">A Practical Guide to <b>CSS</b> <b>Variables</b> (<b>Custom</b> <b>Properties</b> ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.sitepoint.com%2Fpractical%2Dguide%2Dcss%2Dvariables%2Dcustom%2Dproperties%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.sitepoint.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.sitepoint.com%2Fpractical%2Dguide%2Dcss%2Dvariables%2Dcustom%2Dproperties%2F">
+                  www.sitepoint.com/practical-guide-css-variables-custom-properties/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.sitepoint.com%2Fpractical%2Dguide%2Dcss%2Dvariables%2Dcustom%2Dproperties%2F">Unlike regular <b>CSS</b> <b>properties</b>, <b>CSS</b> <b>variables</b> are case sensitive. For instance, var(--foo) and var(--FOO) refer to two different <b>custom</b> <b>properties</b>, --foo and --FOO respectively. <b>CSS</b> <b>Variables</b> Are...</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fcss3_variables.asp"><b>CSS</b> <b>Variables</b> - var() Function - w3schools.com</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fcss3_variables.asp">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.w3schools.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fcss3_variables.asp">
+                  www.w3schools.com/css/css3_variables.asp
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fcss3_variables.asp"><b>CSS</b> <b>Custom</b> <b>Properties</b> (<b>Variables</b>) The var() function can be used to insert the value of a <b>custom</b> property.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdevelopersink.com%2Fcss%2Fcss%2Dcustom%2Dproperties%2Dsass%2Dvariables%2F"><b>Using</b> <b>CSS</b> <b>Custom</b> <b>Properties</b> with SASS/LESS <b>variables</b> ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdevelopersink.com%2Fcss%2Fcss%2Dcustom%2Dproperties%2Dsass%2Dvariables%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/developersink.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdevelopersink.com%2Fcss%2Fcss%2Dcustom%2Dproperties%2Dsass%2Dvariables%2F">
+                  developersink.com/css/css-custom-properties-sass-variables/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdevelopersink.com%2Fcss%2Fcss%2Dcustom%2Dproperties%2Dsass%2Dvariables%2F"><b>CSS</b> <b>Custom</b> <b>properties</b>, referred to some as &quot;<b>CSS</b> <b>Variables</b>&quot;, are a relatively new feature, that allows you to change <b>properties</b> in your <b>CSS</b> dynamically. It&#x27;s the best way to allow theming, dynamic changes to anything that works as a value in your <b>CSS</b>. How do they work?</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcss%2Dcustom%2Dproperties%2Dvariables%2D%2Dcms%2D26216"><b>CSS</b> <b>Custom</b> <b>Properties</b>: <b>Variables</b> - Code Envato Tuts+</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcss%2Dcustom%2Dproperties%2Dvariables%2D%2Dcms%2D26216">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/code.tutsplus.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcss%2Dcustom%2Dproperties%2Dvariables%2D%2Dcms%2D26216">
+                  code.tutsplus.com/tutorials/css-custom-properties-variables--cms-26216
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcss%2Dcustom%2Dproperties%2Dvariables%2D%2Dcms%2D26216"><b>CSS</b> <b>Custom</b> <b>Properties</b>: <b>Variables</b>. While <b>CSS</b> is not a programming language, lack of <b>variables</b> still limits its capabilities. Now that the native <b>CSS</b> <b>variables</b> are around, I would like to discuss how they are different from <b>variables</b> that <b>CSS</b> preprocessors provide and how to use them properly.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.kirupa.com%2Fhtml5%2Fcss_variables_js_win.htm"><b>Using</b> <b>CSS</b> <b>Custom</b> <b>Properties</b> (<b>Variables</b>) with JS | KIRUPA</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.kirupa.com%2Fhtml5%2Fcss_variables_js_win.htm">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.kirupa.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.kirupa.com%2Fhtml5%2Fcss_variables_js_win.htm">
+                  www.kirupa.com/html5/css_variables_js_win.htm
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.kirupa.com%2Fhtml5%2Fcss_variables_js_win.htm">What are <b>CSS</b> <b>Custom</b> <b>Properties</b> / <b>Variables</b>? One of the big recent additions to the <b>CSS</b> language is this thing known as <b>CSS</b> <b>Custom</b> <b>Properties</b>, commonly also referred to as <b>CSS</b> <b>Variables</b>. What <b>CSS</b> <b>custom</b> <b>properties</b> allow you to do is pretty neat. Inside a style rule, you can specify a <b>custom</b> property name and initialize it to whatever value you want:</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fflaviocopes.com%2Fcss%2Dvariables%2F"><b>CSS</b> <b>Variables</b> (<b>Custom</b> <b>Properties</b>) - Flavio</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fflaviocopes.com%2Fcss%2Dvariables%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/flaviocopes.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fflaviocopes.com%2Fcss%2Dvariables%2F">
+                  flaviocopes.com/css-variables/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fflaviocopes.com%2Fcss%2Dvariables%2F">Modern <b>CSS</b> has a new powerful feature called <b>CSS</b> <b>Custom</b> <b>Properties</b>, also commonly known as <b>CSS</b> <b>Variables</b>. <b>CSS</b> is not a programming language like JavaScript , Python, PHP, Ruby or Go where <b>variables</b> are key to do something useful.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcss%2Dtricks.com%2Fmaking%2Dcustom%2Dproperties%2Dcss%2Dvariables%2Ddynamic%2F">Making <b>Custom</b> <b>Properties</b> (<b>CSS</b> <b>Variables</b>) More Dynamic</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcss%2Dtricks.com%2Fmaking%2Dcustom%2Dproperties%2Dcss%2Dvariables%2Ddynamic%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/css-tricks.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcss%2Dtricks.com%2Fmaking%2Dcustom%2Dproperties%2Dcss%2Dvariables%2Ddynamic%2F">
+                  css-tricks.com/making-custom-properties-css-variables-dynamic/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcss%2Dtricks.com%2Fmaking%2Dcustom%2Dproperties%2Dcss%2Dvariables%2Ddynamic%2F"><b>CSS</b> <b>Custom</b> <b>Properties</b> (perhaps more easily understood as <b>CSS</b> <b>variables</b>) provide us ways to make code more concise, as well as introduce new ways to work with <b>CSS</b> that were not possible before. They can do what preprocessor <b>variables</b> can… but also a lot more.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fgooglechrome.github.io%2Fsamples%2Fcss%2Dcustom%2Dproperties%2F"><b>CSS</b> <b>Custom</b> <b>Properties</b> (<b>CSS</b> <b>Variables</b>) Sample</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fgooglechrome.github.io%2Fsamples%2Fcss%2Dcustom%2Dproperties%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/googlechrome.github.io.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fgooglechrome.github.io%2Fsamples%2Fcss%2Dcustom%2Dproperties%2F">
+                  googlechrome.github.io/samples/css-custom-properties/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fgooglechrome.github.io%2Fsamples%2Fcss%2Dcustom%2Dproperties%2F"><b>CSS</b> <b>custom</b> <b>properties</b> allow you to store and retrieve values from <b>properties</b> you define yourself. They follow the same rules as other <b>CSS</b> <b>properties</b>, so you&#x27;re able to define and use them at multiple levels, following standard <b>CSS</b> cascading and specificity rules.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2DUS%2Fdocs%2FWeb%2FCSS%2F%2D%2D*"><b>Custom</b> <b>properties</b> (--*): <b>CSS</b> <b>variables</b> - <b>CSS</b>: Cascading Style ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2DUS%2Fdocs%2FWeb%2FCSS%2F%2D%2D*">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/developer.mozilla.org.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2DUS%2Fdocs%2FWeb%2FCSS%2F%2D%2D*">
+                  developer.mozilla.org/en-US/docs/Web/CSS/--*
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2DUS%2Fdocs%2FWeb%2FCSS%2F%2D%2D*">Property names that are prefixed with --, like --example-name, represent <b>custom</b> <b>properties</b> that contain a value that can be used in other declarations <b>using</b> the var() function. <b>Custom</b> <b>properties</b> are scoped to the element(s) they are declared on, and participate in the cascade: the value of such a <b>custom</b> property is that from the declaration decided by the cascading algorithm.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.sitepoint.com%2Fcss%2Dtheming%2Dcustom%2Dproperties%2Djavascript%2F">Advanced <b>CSS</b> Theming with <b>Custom</b> <b>Properties</b> and JavaScript ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.sitepoint.com%2Fcss%2Dtheming%2Dcustom%2Dproperties%2Djavascript%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.sitepoint.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.sitepoint.com%2Fcss%2Dtheming%2Dcustom%2Dproperties%2Djavascript%2F">
+                  www.sitepoint.com/css-theming-custom-properties-javascript/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.sitepoint.com%2Fcss%2Dtheming%2Dcustom%2Dproperties%2Djavascript%2F"><b>CSS</b> <b>custom</b> <b>properties</b> are natively parsed in modern browsers. Preprocessor <b>variables</b> require compilation into a standard <b>CSS</b> file and all <b>variables</b> are converted to values. <b>Custom</b> <b>properties</b> can ...</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcss%2Dtricks.com%2Fcss%2Dcustom%2Dproperties%2Dtheming%2F"><b>CSS</b> <b>Custom</b> <b>Properties</b> and Theming | <b>CSS</b>-Tricks</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcss%2Dtricks.com%2Fcss%2Dcustom%2Dproperties%2Dtheming%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/css-tricks.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcss%2Dtricks.com%2Fcss%2Dcustom%2Dproperties%2Dtheming%2F">
+                  css-tricks.com/css-custom-properties-theming/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcss%2Dtricks.com%2Fcss%2Dcustom%2Dproperties%2Dtheming%2F"><b>CSS</b> <b>Custom</b> <b>Properties</b> and Theming. There are a few esoteric things preprocessor <b>variables</b> can do that native <b>variables</b> cannot, but for the most part, native <b>variables</b> can do the same things. But, they are more powerful because of how they are live-interpolated. Should their values ever change (e.g. JavaScript, media query hits, etc) the change triggers immediate change on the site.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.smashingmagazine.com%2F2017%2F04%2Fstart%2Dusing%2Dcss%2Dcustom%2Dproperties%2F">It&#x27;s Time To Start <b>Using</b> <b>CSS</b> <b>Custom</b> <b>Properties</b> — Smashing ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.smashingmagazine.com%2F2017%2F04%2Fstart%2Dusing%2Dcss%2Dcustom%2Dproperties%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.smashingmagazine.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.smashingmagazine.com%2F2017%2F04%2Fstart%2Dusing%2Dcss%2Dcustom%2Dproperties%2F">
+                  www.smashingmagazine.com/2017/04/start-using-css-custom-properties/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.smashingmagazine.com%2F2017%2F04%2Fstart%2Dusing%2Dcss%2Dcustom%2Dproperties%2F">A couple of them process <b>custom</b> <b>properties</b> (inline values) in the resulting <b>CSS</b> output and make them work, assuming you provide only global <b>variables</b> (i.e. you only declare or change <b>CSS</b> <b>custom</b> <b>properties</b> inside the :root selector(s)), so their values can be easily inlined.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fteamtreehouse.com%2Flibrary%2Fintroducing%2Dcss%2Dcustom%2Dproperties%2Dfor%2Dcascading%2Dvariables">Introducing &quot;<b>CSS</b> <b>Custom</b> <b>Properties</b> for Cascading <b>Variables</b>&quot;</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fteamtreehouse.com%2Flibrary%2Fintroducing%2Dcss%2Dcustom%2Dproperties%2Dfor%2Dcascading%2Dvariables">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/teamtreehouse.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fteamtreehouse.com%2Flibrary%2Fintroducing%2Dcss%2Dcustom%2Dproperties%2Dfor%2Dcascading%2Dvariables">
+                  teamtreehouse.com/library/introducing-css-custom-properties-for-cascading-variables
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fteamtreehouse.com%2Flibrary%2Fintroducing%2Dcss%2Dcustom%2Dproperties%2Dfor%2Dcascading%2Dvariables"><b>CSS</b> <b>Variables</b> are formally known as &quot;<b>Custom</b> <b>Properties</b>&quot; because they&#x27;re similar to regular <b>CSS</b> <b>properties</b> and set <b>using</b> <b>custom</b> property notation. <b>Variables</b> are an important concept in programming; they provide a way to store and keep track of information.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F48615161%2Fusing%2Dcss%2Dcustom%2Dproperties%2Dvariables%2Dnot%2Dworking">css3 - <b>using</b> <b>css</b> <b>custom</b> <b>properties</b> <b>variables</b> not working ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F48615161%2Fusing%2Dcss%2Dcustom%2Dproperties%2Dvariables%2Dnot%2Dworking">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/stackoverflow.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F48615161%2Fusing%2Dcss%2Dcustom%2Dproperties%2Dvariables%2Dnot%2Dworking">
+                  stackoverflow.com/questions/48615161/using-css-custom-properties-variables-not-working
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F48615161%2Fusing%2Dcss%2Dcustom%2Dproperties%2Dvariables%2Dnot%2Dworking"><b>CSS</b> <b>custom</b> <b>properties</b> are much more powerful than pre-processor ones, as they can be changed at runtime with javascript and be used in all sorts of awesome ways, but when you&#x27;re <b>using</b> them as regular <b>variables</b>, pre-processor vars are always better for compatibility.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Freadium.org%2Freadium%2Dcss%2Fdocs%2FCSS07%2Dvariables.html">How to use <b>CSS</b> <b>custom</b> <b>properties</b> (a.k.a. <b>variables</b>) | readium-<b>css</b></a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Freadium.org%2Freadium%2Dcss%2Fdocs%2FCSS07%2Dvariables.html">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/readium.org.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Freadium.org%2Freadium%2Dcss%2Fdocs%2FCSS07%2Dvariables.html">
+                  readium.org/readium-css/docs/CSS07-variables.html
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Freadium.org%2Freadium%2Dcss%2Fdocs%2FCSS07%2Dvariables.html"><b>CSS</b> <b>variables</b> allow an author to assign arbitrary values to a property with an author-chosen name. This <b>custom</b> property must start with -- . The var() function then allows the author to use those values elsewhere in the document.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Ftympanus.net%2Fcodrops%2Fcss_reference%2Fcustom%2Dproperties%2F"><b>Custom</b> <b>Properties</b> | Codrops <b>CSS</b> Reference - tympanus.net</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Ftympanus.net%2Fcodrops%2Fcss_reference%2Fcustom%2Dproperties%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/tympanus.net.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Ftympanus.net%2Fcodrops%2Fcss_reference%2Fcustom%2Dproperties%2F">
+                  tympanus.net/codrops/css_reference/custom-properties/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Ftympanus.net%2Fcodrops%2Fcss_reference%2Fcustom%2Dproperties%2F"><b>Custom</b> <b>properties</b> allow <b>CSS</b> <b>variables</b> to be used in media queries, something that was not possible with preprocessor <b>variables</b>. In the following example, you can vary the spacing between elements, as well as utilize <b>variables</b> to adjust the number of columns in your layout.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fvanseodesign.com%2Fcss%2Fnative%2Dvariables%2F"><b>CSS</b> <b>Variables</b> — How To Use <b>Custom</b> <b>Properties</b> For Cascading ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fvanseodesign.com%2Fcss%2Fnative%2Dvariables%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/vanseodesign.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fvanseodesign.com%2Fcss%2Fnative%2Dvariables%2F">
+                  vanseodesign.com/css/native-variables/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fvanseodesign.com%2Fcss%2Fnative%2Dvariables%2F"><b>CSS</b> <b>variables</b> are a little bit more complicated, but not too much. In <b>css</b> they&#x27;re more than <b>variables</b>. They&#x27;re <b>custom</b> <b>properties</b> for cascading <b>variables</b>. To declare a <b>custom</b> property give it a name that begins with var- followed by anything you want.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fvanseodesign.com%2Fcss%2Fcustom%2Dproperties%2F">How To Define And Use <b>CSS</b> <b>Custom</b> <b>Properties</b> - Vanseo Design</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fvanseodesign.com%2Fcss%2Fcustom%2Dproperties%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/vanseodesign.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fvanseodesign.com%2Fcss%2Fcustom%2Dproperties%2F">
+                  vanseodesign.com/css/custom-properties/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fvanseodesign.com%2Fcss%2Fcustom%2Dproperties%2F"><b>CSS</b> <b>custom</b> <b>properties</b> offer advantages that <b>variables</b> in preprocessors can&#x27;t. They can be changed dynamically and interact with the DOM and Javascript.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsQUB039MG0I"><b>CSS</b> <b>Variables</b> Tutorial (<b>CSS</b> <b>Custom</b> <b>Properties</b>) - YouTube</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsQUB039MG0I">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.youtube.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsQUB039MG0I">
+                  www.youtube.com/watch?v=sQUB039MG0I
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsQUB039MG0I">In this video we will dive into <b>CSS</b> <b>variables</b>, also called <b>CSS</b> <b>custom</b> <b>properties</b>. We can now have dynamic values in our <b>CSS</b> without the use of a <b>CSS</b> pre-processor like Sass or Less SPONSOR: Check ...</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F49330425%2Fbesides%2Dcss%2Dvariables%2Dwhat%2Dare%2Dcss%2Dcustom%2Dproperties%2Dused%2Dfor">css3 - Besides <b>CSS</b> <b>variables</b>, what are <b>CSS</b> <b>custom</b> <b>properties</b> ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F49330425%2Fbesides%2Dcss%2Dvariables%2Dwhat%2Dare%2Dcss%2Dcustom%2Dproperties%2Dused%2Dfor">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/stackoverflow.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F49330425%2Fbesides%2Dcss%2Dvariables%2Dwhat%2Dare%2Dcss%2Dcustom%2Dproperties%2Dused%2Dfor">
+                  stackoverflow.com/questions/49330425/besides-css-variables-what-are-css-custom-properties-used-for
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F49330425%2Fbesides%2Dcss%2Dvariables%2Dwhat%2Dare%2Dcss%2Dcustom%2Dproperties%2Dused%2Dfor">The <b>variable</b> part of <b>CSS</b> <b>custom</b> <b>properties</b> is actually in how you call (or use) the <b>custom</b> property: .example { background: var(--<b>custom</b>-property); } As you can see from the spec , fully titled &quot;<b>CSS</b> <b>Custom</b> <b>Properties</b> for Cascading <b>Variables</b> Module Level 1&quot;, there is only one use: to be called as the value in a cascaded element with var() .</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloppaper.com%2Fguidelines%2Dfor%2Dthe%2Duse%2Dof%2Dcss%2Dvariables%2Dcustom%2Dproperties%2Dsitepoint%2F">Guidelines for the Use of <b>CSS</b> <b>Variables</b> (<b>Custom</b> <b>Properties</b> ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloppaper.com%2Fguidelines%2Dfor%2Dthe%2Duse%2Dof%2Dcss%2Dvariables%2Dcustom%2Dproperties%2Dsitepoint%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/developpaper.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloppaper.com%2Fguidelines%2Dfor%2Dthe%2Duse%2Dof%2Dcss%2Dvariables%2Dcustom%2Dproperties%2Dsitepoint%2F">
+                  developpaper.com/guidelines-for-the-use-of-css-variables-custom-properties-sitepoint/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdeveloppaper.com%2Fguidelines%2Dfor%2Dthe%2Duse%2Dof%2Dcss%2Dvariables%2Dcustom%2Dproperties%2Dsitepoint%2F"><b>CSS</b> preprocessors, such as Sass and Less, make <b>CSS</b> code easy to organize and maintain. By providing <b>variables</b>, mixing, loops and other features, <b>CSS</b> has the ability to write dynamically, thus reducing repetitive work and improving the development speed. Recently, <b>CSS</b> has begun to add some dynamic features.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fteamtreehouse.com%2Flibrary%2Fdeclaring%2Dand%2Dusing%2Dcss%2Dvariables">Declaring and <b>Using</b> <b>CSS</b> <b>Variables</b> - Treehouse</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fteamtreehouse.com%2Flibrary%2Fdeclaring%2Dand%2Dusing%2Dcss%2Dvariables">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/teamtreehouse.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fteamtreehouse.com%2Flibrary%2Fdeclaring%2Dand%2Dusing%2Dcss%2Dvariables">
+                  teamtreehouse.com/library/declaring-and-using-css-variables
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fteamtreehouse.com%2Flibrary%2Fdeclaring%2Dand%2Dusing%2Dcss%2Dvariables"><b>Using</b> <b>CSS</b> <b>variables</b> in your stylesheet is a two-step process. First, you declare the <b>variable</b> inside a selector <b>using</b> <b>custom</b> property notation. Then you reference the <b>variable</b> (or <b>custom</b> property name) <b>using</b> the <b>CSS</b> var() function.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcodyhouse.co%2Fblog%2Fpost%2Fcss%2Dcustom%2Dproperties%2Dvs%2Dsass%2Dvariables">Why we prefer <b>CSS</b> <b>Custom</b> <b>Properties</b> to SASS <b>variables</b></a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcodyhouse.co%2Fblog%2Fpost%2Fcss%2Dcustom%2Dproperties%2Dvs%2Dsass%2Dvariables">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/codyhouse.co.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcodyhouse.co%2Fblog%2Fpost%2Fcss%2Dcustom%2Dproperties%2Dvs%2Dsass%2Dvariables">
+                  codyhouse.co/blog/post/css-custom-properties-vs-sass-variables
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcodyhouse.co%2Fblog%2Fpost%2Fcss%2Dcustom%2Dproperties%2Dvs%2Dsass%2Dvariables">Native, <b>custom</b> <b>properties</b> allow you to define <b>variables</b> without the need for <b>CSS</b> extensions (i.e., SASS). Are they the same? Not really! Unlike SASS <b>variables</b>, <b>custom</b> <b>properties</b> 1) are scoped to the element they are declared on, 2) cascade and 3) can be manipulated in JavaScript. These three ...</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.lynda.com%2FWordPress%2Dtutorials%2FCSS%2Dcustom%2Dproperties%2Dk%2DCSS%2Dvariables%2F718676%2F756085%2D4.html"><b>CSS</b> <b>custom</b> <b>properties</b> (a.k.a. <b>CSS</b> <b>variables</b>) - lynda.com</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.lynda.com%2FWordPress%2Dtutorials%2FCSS%2Dcustom%2Dproperties%2Dk%2DCSS%2Dvariables%2F718676%2F756085%2D4.html">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.lynda.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.lynda.com%2FWordPress%2Dtutorials%2FCSS%2Dcustom%2Dproperties%2Dk%2DCSS%2Dvariables%2F718676%2F756085%2D4.html">
+                  www.lynda.com/WordPress-tutorials/CSS-custom-properties-k-CSS-variables/718676/756085-4.html
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.lynda.com%2FWordPress%2Dtutorials%2FCSS%2Dcustom%2Dproperties%2Dk%2DCSS%2Dvariables%2F718676%2F756085%2D4.html">The idea of <b>CSS</b> <b>custom</b> <b>properties</b> is you make a change in one property and it takes effect any place that property is used. So it works exactly like other <b>variables</b> in other programming languages. To see how these <b>custom</b> <b>properties</b> work in WP Rig, let&#x27;s add a new <b>custom</b> property and apply it to two different areas in the site.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcaniuse.com%2F">Can I use... Support tables for HTML5, CSS3, etc</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcaniuse.com%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/caniuse.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcaniuse.com%2F">
+                  caniuse.com
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fcaniuse.com%2F">&quot;Can I use&quot; provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers. The site was built and is maintained by Alexis Deveria , with occasional updates provided by the web development community .</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Fupdates%2F2016%2F02%2Fcss%2Dvariables%2Dwhy%2Dshould%2Dyou%2Dcare"><b>CSS</b> <b>Variables</b>: Why Should You Care? | Web | Google Developers</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Fupdates%2F2016%2F02%2Fcss%2Dvariables%2Dwhy%2Dshould%2Dyou%2Dcare">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/developers.google.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Fupdates%2F2016%2F02%2Fcss%2Dvariables%2Dwhy%2Dshould%2Dyou%2Dcare">
+                  developers.google.com/web/updates/2016/02/css-variables-why-should-you-care
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Fupdates%2F2016%2F02%2Fcss%2Dvariables%2Dwhy%2Dshould%2Dyou%2Dcare"><b>CSS</b> <b>variables</b>, more accurately known as <b>CSS</b> <b>custom</b> <b>properties</b>, are landing in Chrome 49. They can be useful for reducing repetition in <b>CSS</b>, and also for powerful runtime effects like theme switching and potentially extending/polyfilling future <b>CSS</b> features.</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.htmlgoodies.com%2Fhtml5%2Fcss%2Fa%2Dguide%2Dto%2Dusing%2Dcss%2Dvariables.html">A Guide to <b>Using</b> <b>CSS</b> <b>Variables</b> - htmlgoodies</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.htmlgoodies.com%2Fhtml5%2Fcss%2Fa%2Dguide%2Dto%2Dusing%2Dcss%2Dvariables.html">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.htmlgoodies.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.htmlgoodies.com%2Fhtml5%2Fcss%2Fa%2Dguide%2Dto%2Dusing%2Dcss%2Dvariables.html">
+                  www.htmlgoodies.com/html5/css/a-guide-to-using-css-variables.html
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.htmlgoodies.com%2Fhtml5%2Fcss%2Fa%2Dguide%2Dto%2Dusing%2Dcss%2Dvariables.html">Web designers accustomed to <b>using</b> <b>CSS</b> preprocessors are no strangers to <b>CSS</b> <b>variables</b>, but for those of us who are not, <b>CSS</b> <b>variables</b> are now officially part of the <b>CSS</b> specification. <b>CSS</b> <b>variables</b>, or more accurately, as they are called in the spec, <b>CSS</b> <b>custom</b> <b>properties</b>, can be useful for reducing ...</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.converticacommerce.com%2Fux%2Dui%2Dfrontend%2Ddesign%2Fcss%2Dvariables%2Duse%2Dcss%2Dcustom%2Dproperties%2F"><b>CSS</b> <b>Variables</b> — How To Use <b>CSS</b> <b>Custom</b> <b>Properties</b> | 2018</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.converticacommerce.com%2Fux%2Dui%2Dfrontend%2Ddesign%2Fcss%2Dvariables%2Duse%2Dcss%2Dcustom%2Dproperties%2F">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.converticacommerce.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.converticacommerce.com%2Fux%2Dui%2Dfrontend%2Ddesign%2Fcss%2Dvariables%2Duse%2Dcss%2Dcustom%2Dproperties%2F">
+                  www.converticacommerce.com/ux-ui-frontend-design/css-variables-use-css-custom-properties/
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.converticacommerce.com%2Fux%2Dui%2Dfrontend%2Ddesign%2Fcss%2Dvariables%2Duse%2Dcss%2Dcustom%2Dproperties%2F">Till now if you wanted to use <b>variables</b> in <b>CSS</b> you&#x27;d have to use some kind of pre-processor like SCSS etc. However <b>CSS</b> and major browsers now support <b>CSS</b> <b>variables</b>, technically called <b>CSS</b> <b>properties</b>. <b>Custom</b> property support in browsers As of March 2018, about 86% of all browsers support the <b>CSS</b> <b>variables</b>, the only noteworthy […]</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+  
+
+
+            <div class="result results_links results_links_deep web-result ">
+
+
+          <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+
+          <h2 class="result__title">
+          
+            <a rel="nofollow" class="result__a" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvP3CWtAuIlU">Arabic <b>CSS</b> Lessons - How To Use <b>CSS</b> <b>Variables</b> ( <b>Custom</b> ...</a>
+          
+          </h2>
+
+      
+
+            <div class="result__extras">
+                <div class="result__extras__url">
+                  <span class="result__icon">
+                    
+                      <a rel="nofollow" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvP3CWtAuIlU">
+                        <img class="result__icon__img" width="16" height="16" alt=""
+                          src="//icons.duckduckgo.com/ip2/www.youtube.com.ico" name="i15" />
+                      </a>
+                  
+                  </span>
+
+                  <a class="result__url" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvP3CWtAuIlU">
+                  www.youtube.com/watch?v=vP3CWtAuIlU
+                  </a>
+
+                  
+
+                </div>
+            </div>
+
+            
+                  <a class="result__snippet" href="/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvP3CWtAuIlU">How To Use <b>CSS</b> <b>Variables</b> ( <b>Custom</b> <b>Properties</b> ) How To Use <b>CSS</b> <b>Variables</b> ( <b>Custom</b> <b>Properties</b> ) Skip navigation Sign in. Search. Loading... Close. This video is unavailable. Watch Queue</a>
+            
+
+            <div style="clear: both"></div>
+          </div>
+
+        </div>
+
+  
+
+
+
+
+        
+        
+                <div class="nav-link">
+        <form action="/html/" method="post">
+          <input type="submit" class='btn btn--alt' value="Next" />
+          <input type="hidden" name="q" value="using css custom properties variables" />
+          <input type="hidden" name="s" value="30" />
+          <input type="hidden" name="nextParams" value="" />
+          <input type="hidden" name="v" value="l" />
+          <input type="hidden" name="o" value="json" />
+          <input type="hidden" name="dc" value="31" />
+          <input type="hidden" name="api" value="/d.js" />
+
+            
+            
+        
+          <input name="kl" value="us-en" type="hidden" />
+            
+            
+            
+            
+            
+        </form>
+                </div>
+        
+
+
+
+        <div class=" feedback-btn">
+            <a rel="nofollow" href="/feedback.html" target="_new">Feedback</a>
+        </div>
+        <div style="clear:both;"></div>
+  </div>
+  </div> <!-- links wrapper //--> 
+
+    
+
+
+
+    </div>
+  </div>
+
+
+
+
+    <div id="bottom_spacing2"></div>
+
+    
+      <img src="/t/sl_h"/>
+    
+</body>
+</html>
