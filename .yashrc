@@ -1,0 +1,14 @@
+set +h
+umask 022
+
+YASH_PS1='${${PWD:/~/\~}##*/}\fc % \fD'
+
+set --brace-expand
+set --extended-glob
+set --no-unset
+set --notify-le
+set --hist-space
+
+bindkey -av '\^L' clear-and-redraw-all
+case $- in (*m*) trap - TSTP TTIN TTOU; esac
+
